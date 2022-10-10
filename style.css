@@ -1,0 +1,23 @@
+html {
+    background-color:darkred;
+}
+.tac{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    line-height: 100px;
+    box-shadow: 0 0 0 3px;
+}
+#Container{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    font-size: 40px;
+}
+
+#tacContainer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 320px;
+    height: 320px;
+    margin: auto;   
+}

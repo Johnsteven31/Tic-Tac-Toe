@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" defer src="app.js"></script>
+</head>
+<body>
+    <div id = "Container">
+        <h1>Tic-Tac-Toe</h1>
+        <label for = Player-1>Player 1:</label>
+        <input 
+        type = 'text'
+        placeholder="entername"
+        name='player 1'
+        id='Player-1'
+        />
+        <label id = Player-2>Player 2:</label>
+        <input 
+        type = 'text'
+        placeholder="entername"
+        name='player 2'
+        id='Player-2'
+        />
+        <div id = "tacContainer">
+            <div tacIndex="0" class = "tac"></div>
+            <div tacIndex="1" class = "tac"></div>
+            <div tacIndex="2" class = "tac"></div>
+            <div tacIndex="3" class = "tac"></div>
+            <div tacIndex="4" class = "tac"></div>
+            <div tacIndex="5" class = "tac"></div>
+            <div tacIndex="6" class = "tac"></div>
+            <div tacIndex="7" class = "tac"></div>
+            <div tacIndex="8" class = "tac"></div>
+        </div>
+        <h2 id = "statusText"></h2>
+        <button id="restartBttn">Restart</button> 
+    </div>
+</body>
+</html>
